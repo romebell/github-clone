@@ -11,7 +11,7 @@ The following are required to be implemented with this lab
 - [ ] `useEffect`
 - [ ] `Axios` for getting data back from Github's API ( need to install )
 - [ ] `props` to pass data down to a component
-- [ ] Use `react-router-dom` for routing to different components ( need to install )
+- [ ] Use `{ BrowserRouter as Router, Route, Link }` from `react-router-dom` ( need to install )
 
 `1` Fork and clone repo.
 
