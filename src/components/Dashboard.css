@@ -1,0 +1,12 @@
+.page {
+  grid-area: m;
+  display: grid;
+  grid-template-columns: 25rem 1fr;
+  gap: 1rem;
+}
+.page__aside {
+  background: #deadbeef;
+}
+.page__main {
+  grid-area: unset;
+}
