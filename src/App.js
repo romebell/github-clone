@@ -7,11 +7,6 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Repositories from './components/Repositories';
 
 
-
-
-
-
-
 function App() {
   return (
     <Router>
@@ -38,5 +33,8 @@ function App() {
    
   );
 }
+
+
+
 
 export default App;
