@@ -1,0 +1,7 @@
+      <img
+        width="350px"
+        height="200px"
+        src="https://img.flaticon.com/icons/png/512/25/25231.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF"
+        alt=""
+      />
+      <img src={props.github.avatar_url} width="75px" />
