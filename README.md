@@ -2,10 +2,7 @@
 
 ![Github logo](https://www.zbw-mediatalk.eu/wp-content/uploads/2015/09/github-cover.jpg)
 
-This is a Github Clone built in React
-
-The goal of this lab is to make a clone of your Github profile using React. 
-
+The goal of this lab is to build a clone of your Github profile using React. 
 
 We only want you to use `functional components` for this app. 
 
