@@ -1,7 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
-const Repositories = (props) => {
-
+function Repositories(props) {
+  console.log(props);
+  return (
+    <div>
+      <p>Repos</p>
+      <p>{props.github.repos_url}</p>
+    </div>
+  );
 }
 
 export default Repositories;
