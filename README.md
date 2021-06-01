@@ -52,4 +52,4 @@ With this lab, you need to need to make the following components:
 - [ ] [Graphic for Code Review](https://ga-students.slack.com/archives/C01U5UM2MG8/p1622559894103700)
 
 ### Graphic from SWAPI
-![Graphic for SWAPI](https://files.slack.com/files-pri/T0351JZQ0-F0240UYNNAV/react_swapi_data_flow__1_.jpg)
+![Graphic for SWAPI](https://user-images.githubusercontent.com/13144457/120353175-5755a880-c2b6-11eb-99cc-007df1bc3a88.jpg)
