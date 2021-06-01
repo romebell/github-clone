@@ -42,6 +42,9 @@ With this lab, you need to need to make the following components:
 `1` When you're on a page, you need take a moment for each page to write down each item that you see a specific page. That information will be needed to make each component.
 
 `2` Refer to `resources` to help you.
+- [ ] [Functional Component using State](https://git.generalassemb.ly/SEI-412/mood-tracker/blob/master/functional-moodTracker.md)
+- [ ] [React LOTR Solution](https://git.generalassemb.ly/SEI-412/react-lotr-solution)
+- [ ] [React Todo List Solution](https://git.generalassemb.ly/SEI-412/react-todolist-solution)
 - [ ] [Deliverable: React Calc](https://git.generalassemb.ly/SEI-412/react-calc-solution)
 - [ ] [React SWAPI Solution](https://git.generalassemb.ly/wsjoshua/react-ajax-swapi-solution)
 - [ ] [Amazon Clone](https://github.com/romebell/amazon-clone)
