@@ -1,8 +1,11 @@
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const Settings = (props) => {
     return (
-        <div>settings page</div>
+        <div>
+            <h2>settings page</h2>
+        </div>
     )
 }
 
