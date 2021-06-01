@@ -10,8 +10,9 @@ We only want you to use `functional components` for this app.
 The following are required to be implemented with this lab
 - [ ] `useState`
 - [ ] `useEffect`
-- [ ] `Axios` for getting data back from Github's API
+- [ ] `Axios` for getting data back from Github's API ( need to install )
 - [ ] `props` to pass data down to a component
+- [ ] Use `react-router-dom` for routing to different components ( need to install )
 
 `1` Fork and clone repo.
 
