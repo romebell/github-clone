@@ -47,9 +47,12 @@ With this lab, you need to need to make the following components:
 `2` Refer to `resources` to help you.
 - [ ] [Deliverable: React Calc](https://git.generalassemb.ly/SEI-412/react-calc-solution)
 - [ ] [React SWAPI Solution](https://git.generalassemb.ly/wsjoshua/react-ajax-swapi-solution)
-- [ ] [Graphic for Code Review](https://ga-students.slack.com/archives/C01U5UM2MG8/p1622559894103700)
 - [ ] [Amazon Clone](https://github.com/romebell/amazon-clone)
 - [ ] [React Router Dental - Rome's Repo](https://git.generalassemb.ly/romebell/react-router-dental)
 - [ ] [Map](https://git.generalassemb.ly/SEI-412/map)
 - [ ] [Burger Stacker Solution](https://git.generalassemb.ly/SEI-412/react-burger-stacker-solution)
 - [ ] [Fruit Filter - Rome's Repo](https://github.com/romebell/fruit-filter)
+- [ ] [Graphic for Code Review](https://ga-students.slack.com/archives/C01U5UM2MG8/p1622559894103700)
+
+### Graphic from SWAPI
+![Graphic for SWAPI](https://files.slack.com/files-pri/T0351JZQ0-F0240UYNNAV/react_swapi_data_flow__1_.jpg)
