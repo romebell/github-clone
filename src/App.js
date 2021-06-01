@@ -9,16 +9,30 @@ import Settings from "./components/Settings";
 
 function App() {
   const [apiRes, setApiRes] = useState([])
+  const [repos, setRepos] = useState([])
 
   async function fetchData() {
     const request = await axios.get("https://api.github.com/users/omunoz-89");
     const results = await request.data;
     setApiRes(results)
+
+  }
+
+  async function fetchRepos() {
+    const request = await axios.get(`${apiRes.repos_url}`);
+    const results = await request.data;
+    setRepos(results)
   }
 
   useEffect(() => {
-    fetchData();
+    fetchData()
   }, []);
+
+  useEffect(() => {
+    fetchRepos()
+  }, [apiRes]);
+
+  
 
   console.log(apiRes)
 
@@ -39,7 +53,7 @@ function App() {
           <Explore apiRes={apiRes}/>
         </Route>
         <Route path="/repositories">
-          <Repositories apiRes={apiRes}/>
+          <Repositories repos={repos}/>
         </Route>
         <Route path="/settings">
           <Settings apiRes={apiRes}/>

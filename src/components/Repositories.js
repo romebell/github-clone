@@ -4,25 +4,10 @@ import axios from 'axios';
 
 const Repositories = (props) => {
 
-    const [apiResults, setApiResults] = useState([])
-    let url = props.apiRes.repos_url
-
-    async function fetchData() {
-        const request = await axios.get(`${url}`);
-        const results = await request.data;
-        setApiResults(results)
-      }
-    
-      useEffect(() => {
-        fetchData();
-      }, []);
-
-    console.log(apiResults)
-
-    const repoList = apiResults.map((item,idx) => {
+    const repoList = props.repos.map((item,idx) => {
         return <li key={idx}>{item.name}</li>
     })
-
+    
     return (
         <div>
             <h1>Repositories</h1>
