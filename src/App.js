@@ -50,22 +50,19 @@ const myProfile = {
   }
 
 
-
 function App(props) {
-  // axios call NOT YET
+   // AXIOS call
+
 
   return (
+ 
     <div className="App">
-      
       <Router>
       <h1>Github Clone</h1>
       <a href="/" ><img width="150px" src="https://img.flaticon.com/icons/png/512/25/25231.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" alt="" /></a>
       <hr />
       <Route exact path='/' render={(props) =>  <Dashboard {...props}/>} />
       <Route exact path='/settings' render={(props) => <Settings myProfile={myProfile} />} />
-
-
-      {/* <Route path='/explore' render={(props)  => <Explore {...props} />}  > </Route> */} 
     </Router>
     </div>
   );

@@ -35,7 +35,6 @@ import React, { useState, useEffect } from 'react';
 //     updated_at: "2021-05-17T03:13:54Z"
 //     }
 const Settings = (props) => {
-console.log(props.myProfile)
 // const [profile, setProfile] = useState({}) NOT USING THIS YET
 // console.log(profile)
     return (
@@ -76,7 +75,6 @@ console.log(props.myProfile)
                 <label htmlFor="location" style={{fontWeight:700}}>Location</label>
                 <input className="form-control" name="location" id="location" value={props.myProfile.location ? props.myProfile.location : "Null"}></input>
             </div>
-
         </form>
 
 
