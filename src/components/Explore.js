@@ -4,7 +4,7 @@ const Explore = (props) => {
 
     return (
         <div>
-            
+            Hello from userpage
         </div>
     )
 
