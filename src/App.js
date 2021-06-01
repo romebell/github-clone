@@ -1,12 +1,33 @@
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import axios from 'axios'
+import Dashboard from './components/Dashboard'
+import Repositories from './components/Repositories'
+
+let url = 'https://api.github.com/users/amanda-posey';
+
 
 function App() {
+  const [info, setInfo] = useState([]);
+  
+  const getInfo = () => {
+    axios.get(url).then((response) => {
+      setInfo(response.data)
+      console.log(response.data);
+    });
+  };
+  useEffect(() => {
+    getInfo();
+  }, []);
+
   return (
-    <div className="App">
-      <h1>Github Clone</h1>
-      <img width="350px" height="200px" src="https://img.flaticon.com/icons/png/512/25/25231.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" alt="" />
+    <div>
+    <Dashboard info={ info } />
+    <Repositories info={ info } />
     </div>
-  );
+  )
+
+  
 }
 
 export default App;
