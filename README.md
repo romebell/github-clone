@@ -46,6 +46,7 @@ With this lab, you need to need to make the following components:
 - [ ] [React LOTR Solution](https://git.generalassemb.ly/SEI-412/react-lotr-solution)
 - [ ] [React Todo List Solution](https://git.generalassemb.ly/SEI-412/react-todolist-solution)
 - [ ] [Deliverable: React Calc](https://git.generalassemb.ly/SEI-412/react-calc-solution)
+- [ ] [Deliverable: React Advanced-calculator-solution](https://git.generalassemb.ly/SEI-412/react-advanced-calculator-solution/blob/master/src/Calculator.js)
 - [ ] [React SWAPI Solution](https://git.generalassemb.ly/wsjoshua/react-ajax-swapi-solution)
 - [ ] [Amazon Clone](https://github.com/romebell/amazon-clone)
 - [ ] [React Router Dental - Rome's Repo](https://git.generalassemb.ly/romebell/react-router-dental)
